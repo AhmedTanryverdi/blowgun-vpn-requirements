@@ -29,7 +29,7 @@ sequenceDiagram
     API->>API: Проверяет формат и rate limit
     API->>Mail: Отправляет OTP
     API-->>App: Подтверждение отправки
-    User->>App: Вводит OTP / открывает ссылку
+    User->>App: Вводит OTP
     App->>API: POST /auth/verify
     API->>API: Проверяет подтверждение
     API->>API: Создаёт или находит пользователя
