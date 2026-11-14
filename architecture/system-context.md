@@ -1,3 +1,4 @@
+```mermaid
 flowchart TB
     User["Пользователь"]
 
@@ -16,3 +17,4 @@ flowchart TB
     App <-->|VPN-туннель| VPN
 
     style Blowgun fill:#e8f1ff,stroke:#2563eb,stroke-width:2px
+```
